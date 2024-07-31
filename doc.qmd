@@ -7,7 +7,7 @@ jupyter: python3
 
 # Quarto with Jupyter
 
-This is an example of a Quarto document that uses Jupyter to execute Python code.
+An example of a Quarto document that uses Jupyter to execute Python code.
 
 ## Python Example
 
