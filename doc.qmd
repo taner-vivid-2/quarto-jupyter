@@ -1,6 +1,6 @@
 ---
 title: "Quarto with Jupyter"
-author: "Your Name"
+author: "A person made this"
 format: html
 jupyter: python3
 ---
