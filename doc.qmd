@@ -1,0 +1,33 @@
+---
+title: "Quarto with Jupyter"
+author: "Your Name"
+format: html
+jupyter: python3
+---
+
+# Quarto with Jupyter
+
+This is an example of a Quarto document that uses Jupyter to execute Python code.
+
+## Python Example
+
+Let's start by importing some libraries and creating a simple plot.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate data
+x = np.linspace(0, 2 * np.pi, 100)
+y = np.sin(x)
+
+# Create plot
+plt.figure(figsize=(10, 6))
+plt.plot(x, y, label='sin(x)')
+plt.title('Plot of sin(x)')
+plt.xlabel('x')
+plt.ylabel('sin(x)')
+plt.legend()
+plt.grid(True)
+plt.show()
+```
